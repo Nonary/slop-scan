@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Scan"
+  short_description: "Multi-tier maintainability audit of a whole codebase"
+  default_prompt: "Use $slop-scan to audit this repository for maintainability and design problems."
+policy:
+  # A full scan spawns many subagents; only run it when asked for by name.
+  allow_implicit_invocation: false

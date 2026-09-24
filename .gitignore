@@ -1,0 +1,4 @@
+# Scan runs: worker logs, outputs and reports quote code from the scanned repositories.
+.slop_scan/
+__pycache__/
+.DS_Store
